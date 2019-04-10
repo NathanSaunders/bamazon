@@ -16,7 +16,7 @@ To run the customer interface please follow the steps below:
 	node bamazonCustomer.js
   
 The customer interface allows the user to view the current inventory of store items: item IDs, descriptions, department in which the item is located and price. The user is then able to purchase one of the existing items by entering the item ID and the desired quantity. If the selected quantity is currently in stock, the user's order is fulfilled, displaying the total purchase price and updating the store database. 
+<img width="960" alt="purchaseScreenshot" src="https://user-images.githubusercontent.com/43506553/55842337-e48e7f80-5ae7-11e9-8964-909376639936.png">
 
-
-
-If the desired quantity is not available, the user is prompted to modify their order.
+If the desired quantity is not available the user is prompted they are out of luck.
+<img width="960" alt="outOfStockScreenshot" src="https://user-images.githubusercontent.com/43506553/55842354-f6702280-5ae7-11e9-995b-f7add172c1e1.png">
